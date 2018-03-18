@@ -25,7 +25,7 @@ public class SenderActivity extends Activity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(SenderActivity.this, ReceiverActivity.class);
-                intent.putExtra(SenderActivity.MENSAGEM_ENVIADA, mensagem.getText());
+                intent.putExtra(SenderActivity.MENSAGEM_ENVIADA, mensagem.getText().toString());
                 startActivity(intent);
 
             }
