@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">SendMessage</string>
     <string name="btn_enviar">Enviar</string>
+    <string name="btn_life">Chamar Sender</string>
 </resources>
