@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menu_explic"
+        android:title="@string/menu_explic" />
+    <item
+        android:id="@+id/menu_implic"
+        android:title="@string/menu_implic" />
+    <item
+        android:id="@+id/menu_lifecycle"
+        android:title="@string/menu_life" />
+    <item
+        android:id="@+id/menu_sair"
+        android:title="@string/menu_sair" />
+</menu>
