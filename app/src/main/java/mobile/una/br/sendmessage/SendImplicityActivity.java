@@ -28,8 +28,8 @@ public class SendImplicityActivity extends Activity {
         intent.putExtra(Intent.EXTRA_SUBJECT, assunto.getText());
         intent.putExtra(Intent.EXTRA_TEXT, mensagem.getText());
         intent.setType("text/plain");
-        //startActivity(intent);
-        startActivity(Intent.createChooser(intent, "Escolha a opção:"));
+        startActivity(intent);
+        //startActivity(Intent.createChooser(intent, "Escolha a opção:"));
 
 
 
