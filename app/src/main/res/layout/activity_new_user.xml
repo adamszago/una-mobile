@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="mobile.una.br.sendmessage.activity.NewUserActivity"
+    tools:layout_editor_absoluteY="81dp">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="368dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/txt_new_user"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/txt_nome_new_user"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:ems="10"
+        android:hint="Nome do Usuário"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="@+id/textView3"
+        app:layout_constraintStart_toStartOf="@+id/textView3"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    <EditText
+        android:id="@+id/txt_senha_new_user"
+        android:layout_width="368dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Senha"
+        android:inputType="textPassword"
+        app:layout_constraintEnd_toEndOf="@+id/txt_email_new_user"
+        app:layout_constraintStart_toStartOf="@+id/txt_email_new_user"
+        app:layout_constraintTop_toBottomOf="@+id/txt_email_new_user" />
+
+    <Button
+        android:id="@+id/btn_cadastrar"
+        android:layout_width="368dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="@string/btn_proximo"
+        app:layout_constraintEnd_toEndOf="@+id/txt_senha_new_user"
+        app:layout_constraintStart_toStartOf="@+id/txt_senha_new_user"
+        app:layout_constraintTop_toBottomOf="@+id/txt_senha_new_user" />
+
+    <EditText
+        android:id="@+id/txt_email_new_user"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="E-mail do usuário"
+        android:inputType="textEmailAddress"
+        app:layout_constraintEnd_toEndOf="@+id/txt_nome_new_user"
+        app:layout_constraintStart_toStartOf="@+id/txt_nome_new_user"
+        app:layout_constraintTop_toBottomOf="@+id/txt_nome_new_user" />
+</android.support.constraint.ConstraintLayout>

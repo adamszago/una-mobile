@@ -1,10 +1,10 @@
-package mobile.una.br.sendmessage;
+package mobile.una.br.sendmessage.activity;
 
 import android.app.Activity;
 import android.os.Bundle;
 import android.widget.TextView;
 
-import org.w3c.dom.Text;
+import mobile.una.br.sendmessage.R;
 
 public class ReceiverActivity extends Activity {
 

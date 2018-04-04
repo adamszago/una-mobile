@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">SendMessage</string>
+    <string name="app_name">Aulas UNA</string>
     <string name="btn_enviar">Enviar</string>
     <string name="btn_life">Chamar Sender</string>
     <string name="btn_mes_impl">Enviar</string>
@@ -8,4 +8,8 @@
     <string name="menu_life">Ciclo Vida</string>
     <string name="menu_sair">Sair</string>
     <string name="txt_welcome">Seja Bem-Vindo!</string>
+    <string name="btn_login">Sign in</string>
+    <string name="new_user">Não tem usuário? Clique Aqui</string>
+    <string name="txt_new_user">Cadastro de Usuário</string>
+    <string name="btn_proximo">Cadastrar</string>
 </resources>

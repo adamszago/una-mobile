@@ -1,4 +1,4 @@
-package mobile.una.br.sendmessage;
+package mobile.una.br.sendmessage.activity;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -6,6 +6,8 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
+
+import mobile.una.br.sendmessage.R;
 
 public class LifecycleActivity extends Activity {
 

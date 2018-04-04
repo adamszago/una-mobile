@@ -4,43 +4,41 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="mobile.una.br.sendmessage.SendImplicityActivity">
+    tools:context="mobile.una.br.sendmessage.activity.SendImplicityActivity"
+    tools:layout_editor_absoluteY="81dp">
 
     <EditText
         android:id="@+id/txt_assunto"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="24dp"
-        android:layout_marginTop="140dp"
+        android:layout_width="0dp"
+        android:layout_height="44dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="80dp"
         android:ems="10"
         android:hint="Assunto"
         android:inputType="text|textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
         android:id="@+id/txt_mensagem"
-        android:layout_width="340dp"
-        android:layout_height="41dp"
-        android:layout_marginEnd="24dp"
-        android:layout_marginStart="24dp"
-        android:layout_marginTop="12dp"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
         android:ems="10"
         android:hint="Digite sua mensagem!"
         android:inputType="textMultiLine"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.666"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txt_assunto" />
+        app:layout_constraintEnd_toEndOf="@+id/txt_assunto"
+        app:layout_constraintStart_toStartOf="@+id/txt_assunto"
+        tools:layout_editor_absoluteY="124dp" />
 
     <Button
         android:id="@+id/btn_mes_impl"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="60dp"
-        android:layout_marginStart="148dp"
         android:onClick="enviarMensagemImplicita"
         android:text="@string/btn_mes_impl"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="402dp" />
 </android.support.constraint.ConstraintLayout>

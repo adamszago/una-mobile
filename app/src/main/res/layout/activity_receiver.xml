@@ -5,7 +5,7 @@
     android:id="@+id/layoutID"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="mobile.una.br.sendmessage.ReceiverActivity">
+    tools:context="mobile.una.br.sendmessage.activity.ReceiverActivity">
 
     <TextView
         android:id="@+id/txt_mensagem_recebida"

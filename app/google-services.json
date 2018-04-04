@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "872612055254",
+    "firebase_url": "https://travelcontrol-15bd6.firebaseio.com",
+    "project_id": "travelcontrol-15bd6",
+    "storage_bucket": "travelcontrol-15bd6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:872612055254:android:e6b28075ec35a133",
+        "android_client_info": {
+          "package_name": "mobile.una.br.sendmessage"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "872612055254-10m4pro9n33jkv1nn2u223c4tbaj0jsf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "mobile.una.br.sendmessage",
+            "certificate_hash": "7e0e7eef485649ec9e1e6e41530a9eb360862704"
+          }
+        },
+        {
+          "client_id": "872612055254-2b13nq3je7d5fg8kmpvldg9tjqgtaf1q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAE1sJ8NKsSddp1YyQuv0q9WfPolHWiWRw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "872612055254-2b13nq3je7d5fg8kmpvldg9tjqgtaf1q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
